@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sacramento&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Open+Sans:wght@300&family=Sacramento&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.logo{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 50px 20px;
+}
+.logo img{
+   width: auto;
+   max-height: 100px;
+}
+img {
+   width: 250px;
+   height: auto;
+   max-width: 100%;
+   border-style: none;
+}
+.pic-container{
+   padding: 50px;
+   align-items: center;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.pic-container-1{
+   width: 70%;
+   position: relative;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   top: 20px;
+   height: 490px;
+}
+.pic-1 img{
+   position: relative;
+   left: 60px;
+   outline: 10px solid white;
+   top: 190px;
+   height: 292.905px;
+}
+.pic-2 img{
+   height: 339.706px;
+   object-fit: cover;
+   width: 290px;
+}
+.secramento{
+   font-family: 'Sacramento', cursive;
+   font-weight: 600;
+   font-size: 28px;
+}
+.pic-container-text h2{
+    font-family: 'Antic Slab', serif;;
+}
+.pic-container-text p{
+   font-size: 1.3rem;
+   
+}
+.pic-container-1 .pic-container-text{
+   position: relative;
+   top: 100px;
+   left: 8%;
+}
+.pic-container-2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 0 60px;
+   position: relative;
+}
+.pic-container-2 h2{
+   font-size: 28px;
+   font-weight: 100;
+}
+.pic-container-child a{
+   border: 2px;
+   margin: 10px 20px;
+   background-color:#CEA398;
+   text-decoration: none;
+   color: #fff;
+   font-size: 1.2rem;
+   padding: 10px 170px;
+}
+.pic-container-child a:hover{
+   background-color: #ecc9c1;
+   color: black;
+   font-weight: bolder;
+   transition: .4s;
+}
+.pic-container-child{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    width: 100%;
+    max-width: 470px;
+}
+.section-2{
+   position: relative;
+   padding: 20px;
+   margin: 70px 0;
+   border-top: 1px solid #DDDDDD;
+   border-bottom: 1px solid #DDDDDD;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.section-2 h4{
+   font-family: "Domaine-Disp", serif;
+   font-size: 13px;
+   font-style: italic;
+
+}
+.section-2-childs ul{
+   list-style: none;
+   display: inline-block;
+   display: flex;
+}
+.section-2-childs a{
+   text-decoration: none;
+   color: black;
+   margin: 0 20px;
+}
+.section-2-childs a:hover{
+   color: #E7CAC2;
+   transition: .4s;
+}
+.footer-section{
+display: flex;
+position: relative;
+   
+}
+.footer-section-left{
+   background: url('img/footer-pic.jpg') no-repeat center/cover;
+   height: 5in;   
+   width: 60%;
+   
+}
+.footer-section-right{
+   position: relative;
+   background-color:#FBF6F2;
+   height: 5in;
+   width: 40%;
+}
+.footer-section-input{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 340px;
+   margin: 130px 40px 40px 130px;
+   outline: none;
+}
+.footer-section-right input:focus{
+   outline: none;
+}
+.footer-section-right input,button{
+   font-size: 12px;
+   letter-spacing: 1px;
+   padding: 12px;
+   margin-bottom: 10px;
+   background-color: #fff;
+   border: none;
+   width: 100%;
+}
+.footer-section-right button{
+   background-color: #CEA398;
+   color: white;
+}
+.footer-section-right button:hover{
+   background-color: #E7CAC2;
+}
+.footer-section-input h3{
+   margin-bottom: 20px;
+   font-weight: 100;
+   text-align: center;
+}
+.footer-section-h2{
+   position: absolute;
+   font-size: 25px;
+   top: 120px;
+   left: 51%;
+   font-weight: 100;
+   z-index: 1000;
+}
+.footer-section-h2 h2{
+   font-family: sans-serif;
+
+}
+
+.pre-footer{
+   background-color: #EDD0BE;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: space-between;
+   padding: 50px;
+   position: relative;
+   height: 300px;
+}
+.pre-one ,.pre-three{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin: auto;
+   flex: 1;
+}
+.pre-one h3,.pre-three h3{
+   border-bottom: 1px solid #a9a9a9;
+   width: 100%;
+   font-weight: bold;
+   padding: 9px 0;
+   font-size: 13px;
+   margin-bottom: 8px;
+   letter-spacing: 1px;
+}
+.pre-one-child ul,.pre-three ul{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   list-style: none;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+.pre-one-child ul li,.pre-three ul li{
+   padding: 3px 0;
+   font-size: 12px;
+   letter-spacing: 1px;
+   text-transform: capitalize;
+}
+.pre-one-child ul li a,.pre-three ul li a{
+   text-decoration: none;
+   color: black;
+   outline: none;
+}
+.pre-two{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   text-align: center;
+   flex: 4;
+}
+.two-child-one h2{
+   font-size: 28px;
+}
+.two-child-two{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 50px 50px 20px;
+}
+.two-child-two form{
+   width: 100%;
+   max-height: 600px;
+   margin: 0 auto;
+}
+.two-child-two span{
+   border: 0;
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   width: 1px;
+   word-wrap: normal;
+   clip: rect(1px, 1px, 1px, 1px);
+   clip-path: inset(50%);
+}
+.pree-two-input{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   position: relative;
+}
+.pree-two-input input{
+   padding-right: 25px;
+   font-style: italic;
+   border: none;
+   background: #ffffff;
+   flex: 1;
+}
+.pree-two-input input:focus{
+   outline: none;
+}
+.pree-two-input button{
+   cursor: pointer;
+   background: #CEA398;
+   border: 2px solid #CEA398;
+   color: #fff;
+   display: inline-block;
+   padding: 13px 25px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   text-align: center;
+   box-shadow: unset;
+   line-height: 1;
+   margin: 0;
+}
+.pree-two-input button:hover{
+   background-color: #E7CAC2;
+   border: 1px solid #E7CAC2;
+}
+
